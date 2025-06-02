@@ -3,16 +3,18 @@ public class Main {
         int a = 10;
         int b = 3;
 
-        int sum = a + b;
-        int difference = a - b;
-        int product = a * b;
-        int quotient = a / b;
-        int remainder = a % b;
+        a += 5; // a = a + 5;
+        b -= 1; // b = b - 1;
+        System.out.println(a);
+        System.out.println(b);
 
-        System.out.println(sum);
-        System.out.println(difference);
-        System.out.println(product);
-        System.out.println(quotient);
-        System.out.println(remainder);
+        b *= 4; // b = b * 2;
+        System.out.println(b);
+
+        b /= 3; // b = b / 2;
+        System.out.println(b);
+
+        b %= 1; // b = b % 1;
+        System.out.println(b);
     }
 }
