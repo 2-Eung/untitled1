@@ -1,12 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        final int a = 10;
+        int a = 10;
+        int b = 3;
 
-        System.out.println(a);
+        int sum = a + b;
+        int difference = a - b;
+        int product = a * b;
+        int quotient = a / b;
+        int remainder = a % b;
 
-        //a = 11;
-
-        System.out.println(a);
-
+        System.out.println(sum);
+        System.out.println(difference);
+        System.out.println(product);
+        System.out.println(quotient);
+        System.out.println(remainder);
     }
 }
